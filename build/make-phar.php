@@ -5,7 +5,7 @@
  */
 
 
-$file_phar = "BehaviorPackLoader.phar";
+$file_phar = "PMMPPlugin.phar";
 if(file_exists($file_phar)){
 	echo "Phar file already exists, overwriting...";
 	echo PHP_EOL;
