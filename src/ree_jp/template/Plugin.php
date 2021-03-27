@@ -1,15 +1,14 @@
 <?php
-namespace ree\template;
+namespace ree_jp\template;
 
 use pocketmine\plugin\PluginBase;
 
-class Main extends PluginBase
+class Plugin extends PluginBase
 {
     private const NOTICE = "§a>> ";
     
     public function onEnable()
     {
-        $this->getLogger()->info(self::NOTICE.'読み込みました');
         parent::onEnable();
     }
     
